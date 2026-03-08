@@ -1,3 +1,7 @@
 streamlit
 pandas
 matplotlib
+numpy
+pdfplumber
+pytesseract
+Pillow
