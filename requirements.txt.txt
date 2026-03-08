@@ -1,9 +1,6 @@
 streamlit
 pandas
 matplotlib
-numpy
-pdfplumber
-pytesseract
+PyMuPDF
 Pillow
-fitz
-
+numpy
