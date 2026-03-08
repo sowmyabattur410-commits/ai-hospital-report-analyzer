@@ -1,0 +1,155 @@
+/* ===============================
+   GLOBAL HOSPITAL BACKGROUND
+================================= */
+
+.stApp {
+    background-color: #eef2f6;
+    font-family: "Segoe UI", "Inter", sans-serif;
+    color: #1f2d3d;
+}
+
+/* ===============================
+   HEADER SECTION
+================================= */
+
+.main-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #1b365d;
+    margin-bottom: 4px;
+}
+
+.sub-title {
+    font-size: 15px;
+    color: #5a6b7b;
+    margin-bottom: 25px;
+}
+
+/* ===============================
+   SIDEBAR (Hospital Style)
+================================= */
+
+section[data-testid="stSidebar"] {
+    background-color: #1b365d;
+}
+
+section[data-testid="stSidebar"] * {
+    color: white !important;
+}
+
+/* ===============================
+   KPI METRIC CARDS
+================================= */
+
+[data-testid="stMetric"] {
+    background-color: rgb(141, 135, 135);
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.05);
+    border-left: 5px solid #0d6bef;
+    color: #030c19 !important;
+}
+
+/* ===============================
+   DATA CARDS
+================================= */
+
+.card {
+    background-color: rgb(33, 2, 2);
+    padding: 22px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 14px rgba(222, 164, 164, 0.05);
+    margin-bottom: 20px;
+    color: #eeeff0;
+}
+
+/* ===============================
+   FILE UPLOADER
+================================= */
+
+section[data-testid="stFileUploader"] {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    border: 1px solid #d9e2ec;
+}
+
+section[data-testid="stFileUploader"] * {
+    color: #1f2d3d !important;
+}
+
+/* ===============================
+   TABLE STYLE
+================================= */
+
+[data-testid="stDataFrame"] {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.04);
+}
+
+[data-testid="stDataFrame"] * {
+    color: #1f2d3d !important;
+}
+
+/* ===============================
+   SELECTBOX / DROPDOWN FIX
+================================= */
+
+div[data-baseweb="select"] * {
+    color: #f7f8fa !important;
+}
+
+/* ===============================
+   LABEL FIX
+================================= */
+
+label {
+    color: #1f2d3d !important;
+}
+
+/* ===============================
+   BUTTONS
+================================= */
+
+.stButton>button {
+    background-color: #007c91;
+    color: white;
+    border-radius: 6px;
+    padding: 8px 18px;
+    font-weight: 600;
+    border: none;
+}
+
+.stButton>button:hover {
+    background-color: #005f6b;
+}
+
+/* ===============================
+   STATUS COLORS (Clinical)
+================================= */
+
+.normal {
+    color: #2f855a;
+    font-weight: 600;
+}
+
+.high {
+    color: #c53030;
+    font-weight: 700;
+}
+
+.low {
+    color: #dd6b20;
+    font-weight: 700;
+}
+
+/* ===============================
+   DIVIDER
+================================= */
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #d9e2ec;
+}
