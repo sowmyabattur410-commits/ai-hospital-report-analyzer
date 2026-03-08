@@ -5,3 +5,5 @@ numpy
 pdfplumber
 pytesseract
 Pillow
+fitz
+
